@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "Louis George Cafe";
+  src: url('fonts/Louis\ George\ Cafe.ttf'), 
+  url('fonts/Louis\ George\ Cafe\ Bold.ttf'), 
+  url('fonts/Louis\ George\ Cafe\ Bold\ Italic.ttf'), 
+  url('fonts/Louis\ George\ Cafe\ Light.ttf'),
+  url('fonts/Louis\ George\ Cafe\ Light\ Italic.ttf'),
+  format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Louis George Cafe", sans-serif;
+    color: #000000;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #D4D4D4;
+  background-size: cover;
+  background-position: center;
+  
+}
+.container {
+  width: 420px;
+  background-color: transparent;
+  /*border: 2px solid #ca4949;*/
+  border-radius: 10px;
+  color: #000000;
+  padding: 30px 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.container .topo h1  {
+  font-size: 40px;
+  text-align: center;
+
+}
+.container .topo p {
+  font-size: 16px;
+  text-align: center;
+  margin: 10px 0;
+
+}
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: 2px solid #98AC57;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  color: #000000;
+  padding: 20px 45px 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.input-box input::placeholder {
+  color: #000000;
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
+  font-size: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #000000;
+}
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  margin: -15px 0 15px;
+  font-size: 15px;
+}
+.remember-forgot label {
+  accent-color: black;
+  margin-right: 5px;
+  
+
+}
+.remember-forgot a {
+  text-decoration: none;
+  color: #000000;
+}
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+.entrar {
+  width: 100%;
+  height: 50px;
+  background: #98AC57;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 30px;
+}
+
+.entrar:hover {
+  background: transparent;
+  border: 2px solid #98AC57;
+  color: #98AC57;
+  transition: 0.5s;
+}
+.register-link {
+  font-size: 15px;
+  text-align: center;
+  margin: 20px 0 15px;
+  text-decoration: none;
+  
+}
+.register-link a {
+  text-decoration: none;
+  color: #000000;
+}
+.register-link a:hover {
+  text-decoration: underline;
+}
+
